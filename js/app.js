@@ -37,6 +37,12 @@ allClear.addEventListener("click", function () {
   showNumberInDisplay();
 });
 
+//delete btn
+deleted.addEventListener("click", function () {
+  currentOperand = currentOperand.slice(0,-1);
+  showNumberInDisplay();
+})
+
 //calculate
 
 function calculate() {
